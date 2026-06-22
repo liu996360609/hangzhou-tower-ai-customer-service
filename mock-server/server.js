@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const { resetData, deepCloneData } = require('./data/resetData');
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 // 中间件
 app.use(cors());
@@ -1221,7 +1221,7 @@ app.get('/api/v1/demo/health', (req, res) => {
 });
 
 // ==================== 启动服务器 ====================
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`
 ╔══════════════════════════════════════════════════════╗
 ║                                                      ║
