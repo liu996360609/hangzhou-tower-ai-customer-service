@@ -1,0 +1,12 @@
+{
+  "name": "hangzhou-tower-ai-customer-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "杭州大厦AI客服系统 Demo",
+  "scripts": {
+    "start": "cd mock-server && node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
