@@ -1,0 +1,15 @@
+{
+  "name": "hangzhou-tower-mock-server",
+  "version": "1.0.0",
+  "description": "杭州大厦AI客服系统 Mock Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  }
+}
